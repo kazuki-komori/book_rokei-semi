@@ -2,7 +2,6 @@
 module.exports = {
   title: "統計学実践ワークブック",
   description: '宿久研究室 ゼミ 2020/11-',
-  base: "/book_tokei-semi/",
   plugins: [
     [
       '@maginapp/vuepress-plugin-katex',
