@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "push": "gh-pages -d dist -b master",
-    "deploy": "npm run build && npm run push" 
+    "build": "vuepress build docs"
   },
   "author": "kazuki-komori",
   "license": "ISC",
