@@ -1,6 +1,6 @@
 ## 数理統計ゼミ資料
 ゼミで使用した資料をこちらに保存しています.
-
+https://book-tokei-semi.vercel.app/
 ## Environment
 - Vuepress 1.7.1
 - Node.js 12.x  

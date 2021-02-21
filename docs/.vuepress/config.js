@@ -1,3 +1,4 @@
+const path = require("path")
 // .vuepress/config.js
 module.exports = {
   title: "統計学実践ワークブック",
@@ -16,10 +17,18 @@ module.exports = {
     sidebar: [
       ['/', "トップ"],
       ['/4章-変数変換/', "4章-変数変換"],
+      ['/8章-統計的推定の基礎/', "8章-統計的推定の基礎"],
     ],
     repo: 'kazuki-komori/book_tokei-semi',
     repoLabel: 'Github',
     editLinks: true,
     editLinkText: 'ページに不明点や誤字等があれば、Github にて修正を提案してください！',
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@': path.join(__dirname, 'img')
+      }
+    }
   }
 }
