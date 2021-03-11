@@ -12,12 +12,13 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    description: "GitHubを用いた共同開発のフロー",
+    description: "数理統計ゼミ資料",
     nav: [],
     sidebar: [
       ['/', "トップ"],
       ['/4章-変数変換/', "4章-変数変換"],
       ['/8章-統計的推定の基礎/', "8章-統計的推定の基礎"],
+      ['/12章-一般の分布に関する検定手法/', "12章-一般の分布に関する検定手法"],
     ],
     repo: 'kazuki-komori/book_tokei-semi',
     repoLabel: 'Github',
